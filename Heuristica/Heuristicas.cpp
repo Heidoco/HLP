@@ -46,7 +46,7 @@ public:
     vector<vector<double>> c; // Custos por enviar uma unidade de demanda entre os nós i e j
     vector<double> s;         // Custos fixos de instalação de um hub
     vector<vector<double>> g; // Custos de operação nos links inter-hubs
-    vector<vector<double>> q;         // Custo operação conexao direta
+    vector<vector<double>> q; // Custo operação conexao direta
     float soma;               // Soma para obter a média geral dos custos fixos de instalação hub - Dados AP
                               // Variáveis das instâncias
     vector<double> h;         // Vetor binário para os hubs ativos (tamanho n)
@@ -186,7 +186,7 @@ ofstream arq_saida2("Resultados-configuracoes.txt",std::ofstream::app); //Ativar
 void Heuristicas::Read_main_arg(int argc, char *argv[])
 {
     alpha1 = (argc > 2) ? atof(argv[2]) : 0.75; // valor de alpha via linha de comando
-    receita = (argc > 3) ? atof(argv[3]) : 20; // valor da receita via linha de comando
+    receita = (argc > 3) ? atof(argv[3]) : 20;  // valor da receita via linha de comando
 }
 
 void Heuristicas::Read_data(char name[])
@@ -212,12 +212,11 @@ void Heuristicas::Read_data(char name[])
     e = vector<double>(n * (n - 1), 0);               // Inicializando vetor de arcos entre conexoes diretas com zero
     e_registro = vector<double>(n * (n - 1), 0.0);
     e_linha = vector<double>(n * (n - 1), 0);
-    e_zero = vector<double>(n * (n - 1), 0);          // Vetor e zerado
-    soma = 0;                                         // Soma para obter a média geral dos custos fixos de instalação hub - Dados AP
+    e_zero = vector<double>(n * (n - 1), 0); // Vetor e zerado
+    soma = 0;                                // Soma para obter a média geral dos custos fixos de instalação hub - Dados AP
 
-    alpha = alpha1; // Fator de desconto entre nós inter-hubs AP
+    alpha = alpha1;                                        // Fator de desconto entre nós inter-hubs AP
     q = vector<vector<double>>(n, vector<double>(n, 0.0)); // Initialize q
-
 
     for (int i = 0; i < n; i++)
     { // Receita AP 20,30,50
@@ -261,7 +260,7 @@ void Heuristicas::Read_data(char name[])
         for (int j = 0; j < n; j++)
         {
             g[i][j] = 0.1 * soma / n;
-            q[i][j] = g[i][j]*0.20;
+            q[i][j] = g[i][j] * 0.20;
         }
     }
 
@@ -285,12 +284,12 @@ vector<double> Heuristicas::sol_um_hub()
 
         e_linha = e_zero; // Reiniciar o vetor e_linha
 
-            
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < n; j++)
             {
-                if (i != j){
+                if (i != j)
+                {
                     l[i][j] = r[i][j] * w[i][j] - ((c[i][k] + c[k][j]) * w[i][j]);
                     // Lucro por conexao direta
                     le[i][j] = r[i][j] * w[i][j] - c[i][j] * w[i][j] - q[i][j];
@@ -314,7 +313,7 @@ vector<double> Heuristicas::sol_um_hub()
         if ((phi_aux_1 + phi_aux_2) >= phi)
         {
             e = e_linha;
-            phi = std::max(0.0, phi_aux_1 + phi_aux_2); //MUDEI PRA VER, NAO FOI
+            phi = std::max(0.0, phi_aux_1 + phi_aux_2); // MUDEI PRA VER, NAO FOI
             if (phi_aux_1 > 0)
             {
                 hub_ativo = k;
@@ -462,7 +461,7 @@ void Heuristicas::vizinhanca1()
     if (!hubs_inativos.empty())
     {
         u = 1 * (hubs_inativos.size());
-        //cout << "valor de m: " << m << endl;
+        // cout << "valor de m: " << m << endl;
         for (int j = 0; j < u; j++)
         {
             if (j == 0)
