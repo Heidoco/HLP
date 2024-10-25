@@ -1,0 +1,188 @@
+10L.txt 	 10 	 0.75 	 20.00 	 2876.67 	 284.27 	 56.85 	 30124.60 	 0.08 	 
+
+ Quantidade de pares atendidos: 55.000000 	Demanda atendida total: 0.091667 	 
+Demanda por link direto: 0.091667 	 
+
+ Valor função objetivo: 62801.977851	 
+
+ Tempo de CPU: 0.170000	 
+10L.txt 	 10 	 0.75 	 30.00 	 2876.67 	 284.27 	 56.85 	 62801.98 	 0.17 	 
+
+ Quantidade de pares atendidos: 80.000000 	Demanda atendida total: 0.133333 	 
+Demanda por link direto: 0.133333 	 
+
+ Valor função objetivo: 140414.879286	 
+
+ Tempo de CPU: 0.200000	 
+10L.txt 	 10 	 0.75 	 50.00 	 2876.67 	 284.27 	 56.85 	 140414.88 	 0.20 	 
+
+ Quantidade de pares atendidos: 100.000000 	Demanda atendida total: 0.166667 	 
+Demanda por link direto: 0.166667 	 
+
+ Valor função objetivo: 28737.570535	 
+
+ Tempo de CPU: 0.070000	 
+10T.txt 	 10 	 0.75 	 20.00 	 3769.90 	 414.37 	 82.87 	 28737.57 	 0.07 	 
+
+ Quantidade de pares atendidos: 52.000000 	Demanda atendida total: 0.086667 	 
+Demanda por link direto: 0.086667 	 
+
+ Valor função objetivo: 60720.235039	 
+
+ Tempo de CPU: 0.130000	 
+10T.txt 	 10 	 0.75 	 30.00 	 3769.90 	 414.37 	 82.87 	 60720.24 	 0.13 	 
+
+ Quantidade de pares atendidos: 80.000000 	Demanda atendida total: 0.133333 	 
+Demanda por link direto: 0.133333 	 
+
+ Valor função objetivo: 138045.512126	 
+
+ Tempo de CPU: 0.150000	 
+10T.txt 	 10 	 0.75 	 50.00 	 3769.90 	 414.37 	 82.87 	 138045.51 	 0.15 	 
+
+ Quantidade de pares atendidos: 100.000000 	Demanda atendida total: 0.166667 	 
+Demanda por link direto: 0.105000 	 
+
+ Valor função objetivo: 20960.682706	 
+
+ Tempo de CPU: 0.580000	 
+20L.txt 	 20 	 0.75 	 20.00 	 2193.88 	 283.53 	 56.71 	 20960.68 	 0.58 	 
+
+ Quantidade de pares atendidos: 109.000000 	Demanda atendida total: 0.181667 	 
+Demanda por link direto: 0.181667 	 
+
+ Valor função objetivo: 50510.257329	 
+
+ Tempo de CPU: 5.940000	 
+20L.txt 	 20 	 0.75 	 30.00 	 2193.88 	 283.53 	 56.71 	 50510.26 	 5.94 	 
+
+ Quantidade de pares atendidos: 300.000000 	Demanda atendida total: 0.500000 	 
+Demanda por link direto: 0.211667 	 
+
+ Valor função objetivo: 126832.448192	 
+
+ Tempo de CPU: 72.090000	 
+20L.txt 	 20 	 0.75 	 50.00 	 2193.88 	 283.53 	 56.71 	 126832.45 	 72.09 	 
+
+ Quantidade de pares atendidos: 398.000000 	Demanda atendida total: 0.663333 	 
+Demanda por link direto: 0.148333 	 
+
+ Valor função objetivo: 17399.677924	 
+
+ Tempo de CPU: 0.530000	 
+20T.txt 	 20 	 0.75 	 20.00 	 2609.78 	 479.67 	 95.93 	 17399.68 	 0.53 	 
+
+ Quantidade de pares atendidos: 71.000000 	Demanda atendida total: 0.118333 	 
+Demanda por link direto: 0.118333 	 
+
+ Valor função objetivo: 45814.215800	 
+
+ Tempo de CPU: 0.930000	 
+20T.txt 	 20 	 0.75 	 30.00 	 2609.78 	 479.67 	 95.93 	 45814.22 	 0.93 	 
+
+ Quantidade de pares atendidos: 288.000000 	Demanda atendida total: 0.480000 	 
+Demanda por link direto: 0.155000 	 
+
+ Valor função objetivo: 121640.237696	 
+
+ Tempo de CPU: 5.020000	 
+20T.txt 	 20 	 0.75 	 50.00 	 2609.78 	 479.67 	 95.93 	 121640.24 	 5.02 	 
+
+ Quantidade de pares atendidos: 396.000000 	Demanda atendida total: 0.660000 	 
+Demanda por link direto: 0.155000 	 
+
+ Valor função objetivo: 19074.015542	 
+
+ Tempo de CPU: 1.550000	 
+25L.txt 	 25 	 0.75 	 20.00 	 2345.25 	 266.96 	 53.39 	 19074.02 	 1.55 	 
+
+ Quantidade de pares atendidos: 195.000000 	Demanda atendida total: 0.325000 	 
+Demanda por link direto: 0.116667 	 
+
+ Valor função objetivo: 48255.717742	 
+
+ Tempo de CPU: 91.520000	 
+25L.txt 	 25 	 0.75 	 30.00 	 2345.25 	 266.96 	 53.39 	 48255.72 	 91.52 	 
+
+ Quantidade de pares atendidos: 455.000000 	Demanda atendida total: 0.758333 	 
+Demanda por link direto: 0.141667 	 
+
+ Valor função objetivo: 124493.635432	 
+
+ Tempo de CPU: 1019.780000	 
+25L.txt 	 25 	 0.75 	 50.00 	 2345.25 	 266.96 	 53.39 	 124493.64 	 1019.78 	 
+
+ Quantidade de pares atendidos: 620.000000 	Demanda atendida total: 1.033333 	 
+Demanda por link direto: 0.121667 	 
+
+ Valor função objetivo: 12892.231472	 
+
+ Tempo de CPU: 0.670000	 
+25T.txt 	 25 	 0.75 	 20.00 	 4333.12 	 631.26 	 126.25 	 12892.23 	 0.67 	 
+
+ Quantidade de pares atendidos: 55.000000 	Demanda atendida total: 0.091667 	 
+Demanda por link direto: 0.091667 	 
+
+ Valor função objetivo: 38104.822876	 
+
+ Tempo de CPU: 2.040000	 
+25T.txt 	 25 	 0.75 	 30.00 	 4333.12 	 631.26 	 126.25 	 38104.82 	 2.04 	 
+
+ Quantidade de pares atendidos: 429.000000 	Demanda atendida total: 0.715000 	 
+Demanda por link direto: 0.100000 	 
+
+ Valor função objetivo: 113478.215649	 
+
+ Tempo de CPU: 1.800000	 
+25T.txt 	 25 	 0.75 	 50.00 	 4333.12 	 631.26 	 126.25 	 113478.22 	 1.80 	 
+
+ Quantidade de pares atendidos: 615.000000 	Demanda atendida total: 1.025000 	 
+Demanda por link direto: 0.113333 	 
+
+ Valor função objetivo: 15860.105415	 
+
+ Tempo de CPU: 17.070000	 
+40L.txt 	 40 	 0.75 	 20.00 	 2005.55 	 272.30 	 54.46 	 15860.11 	 17.07 	 
+
+ Quantidade de pares atendidos: 389.000000 	Demanda atendida total: 0.648333 	 
+Demanda por link direto: 0.075000 	 
+
+ Valor função objetivo: 44888.721645	 
+
+ Tempo de CPU: 4651.750000	 
+40L.txt 	 40 	 0.75 	 30.00 	 2005.55 	 272.30 	 54.46 	 44888.72 	 4651.75 	 
+
+ Quantidade de pares atendidos: 1206.000000 	Demanda atendida total: 2.010000 	 
+Demanda por link direto: 0.070000 	 
+
+ Valor função objetivo: 120130.244106	 
+
+ Tempo de CPU: 5474.530000	 
+40L.txt 	 40 	 0.75 	 50.00 	 2005.55 	 272.30 	 54.46 	 120130.24 	 5474.53 	 
+
+ Quantidade de pares atendidos: 1563.000000 	Demanda atendida total: 2.605000 	 
+Demanda por link direto: 0.086667 	 
+
+ Valor função objetivo: 6690.345423	 
+
+ Tempo de CPU: 7.660000	 
+40T.txt 	 40 	 0.75 	 20.00 	 2318.90 	 783.76 	 156.75 	 6690.35 	 7.66 	 
+
+ Quantidade de pares atendidos: 378.000000 	Demanda atendida total: 0.630000 	 
+Demanda por link direto: 0.006667 	 
+
+ Valor função objetivo: 33383.593657	 
+
+ Tempo de CPU: 11.020000	 
+40T.txt 	 40 	 0.75 	 30.00 	 2318.90 	 783.76 	 156.75 	 33383.59 	 11.02 	 
+
+ Quantidade de pares atendidos: 1105.000000 	Demanda atendida total: 1.841667 	 
+Demanda por link direto: 0.015000 	 
+
+ Valor função objetivo: 106718.693690	 
+
+ Tempo de CPU: 17.670000	 
+40T.txt 	 40 	 0.75 	 50.00 	 2318.90 	 783.76 	 156.75 	 106718.69 	 17.67 	 
+
+ Quantidade de pares atendidos: 1523.000000 	Demanda atendida total: 2.538333 	 
+Demanda por link direto: 0.015000 	 
