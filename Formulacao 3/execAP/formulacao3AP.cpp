@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 		
 		if (argc >= 3) //Coletar fator de desconto nos links inter-hubs AP
 		  alpha = atof(argv[2]);
-		else alpha = 0.2;
+		else alpha = 0.75;
 		
 		for (int i = 0; i <  n; i++){ //Receita AP 20,30,50
 		  for (int j = 0; j < n; j++){
@@ -346,11 +346,11 @@ int main(int argc, char *argv[])
 		/// ==========================
 
 		cplex.setParam(IloCplex::EpGap, 0.0000001); // Definindo uma tolerancia
-		cplex.setParam(IloCplex::TiLim, 18000);		// Tempo limite de resolução
+		cplex.setParam(IloCplex::TiLim, 11000);		// Tempo limite de resolução
 		cplex.setWarning(env.getNullStream());		// Eliminar warnings
 		cplex.setOut(env.getNullStream());    // Eliminar os logs do solver
 		cplex.setParam(IloCplex::Threads, 12); // Definir a quantidade de threads
-		cplex.setParam(IloCplex::Param::Benders::Strategy, 3); // Ativar Benders do solver
+		//cplex.setParam(IloCplex::Param::Benders::Strategy, 3); // Ativar Benders do solver
 
 		///==============================
 		/// Resolvendo o problema
@@ -504,32 +504,34 @@ for (int i = 0; i < n; i++)
 result_file << "]\n";
 result_file << "    },\n";
 
-// // Conexões indiretas (via hubs)
-// result_file << "    {\n";
-// result_file << "      \"hub_connections\": [";
-// first = true;
-// for (int i = 0; i < n; i++)
-// {
-//     for (int j = 0; j < n; j++)
-//     {
-//         for (int k = 0; k < n; k++)
-//         {
-//             if (cplex.getValue(b[i][j][k]) > 0.001) // Se houver uma conexão indireta via hub
-//             {
-//                 if (!first)
-//                     result_file << ", ";
-//                 result_file << "{ \"from\": " << (i + 1) << ", \"to\": " << (j + 1) << ", \"via_hub\": " << (k + 1) << " }";
-//                 first = false;
-//             }
-//         }
-//     }
-// }
-// result_file << "]\n";
-// result_file << "    }\n";
+// Arcos inter-hubs utilizados nas conexões indiretas
+result_file << "{\n \"arcos_utilizados\": [";
+first = true;
+for (int k = 0; k < n; k++)
+{
+    for (int l = 0; l < n; l++)
+    {
+        if (k != l)
+        {
+            double fluxo_total = 0.0;
+            for (int i = 0; i < n; i++)
+            {
+                fluxo_total += cplex.getValue(f[i][k][l]);
+            }
+            if (fluxo_total > 0.001)
+            {
+                if (!first)
+                    result_file << ", ";
+                result_file << "[" << (k + 1) << ", " << (l + 1) << "]";
+                first = false;
+            }
+        }
+    }
+}
+result_file << "]\n";
 
-result_file << "  ]\n";
+result_file << "}]\n}," << endl;
 
-result_file << "}," << endl;
 
 // Fechando o arquivo
 result_file.close();

@@ -1,0 +1,111 @@
+
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 0.88
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 0.78
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 1.43
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 1.11
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 1.77
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 0.79
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 0.77
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 0.79
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 1.16
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
+
+125T.txt
+alpha: 0.75
+receita: 30
+valor_inicial: 29586.11
+valor_solucao: 29586.11
+tempo: 0.83
+hubs instalados: 84	
+arcos instalados:
+Conexões diretas instaladas: 
+------------------------------------------------------
