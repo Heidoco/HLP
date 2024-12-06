@@ -1,0 +1,90 @@
+{
+  "nome_arquivo": "200L.txt",
+  "alpha": 0.75,
+  "receita": 50,
+  "valor_inicial": 103515.17,
+  "valor_solucao": 118304.70,
+  "tempo_processamento": 67.69,
+  "hubs_instalados": [42, 94, 129, 159],
+  "arcos_instalados": [[42, 159], [159, 42]]
+},
+{
+  "nome_arquivo": "200L.txt",
+  "alpha": 0.75,
+  "receita": 50,
+  "valor_inicial": 103515.17,
+  "valor_solucao": 118304.70,
+  "tempo_processamento": 81.95,
+  "hubs_instalados": [42, 94, 129, 159],
+  "arcos_instalados": [[42, 159], [159, 42]]
+},
+{
+  "nome_arquivo": "25L.txt",
+  "alpha": 0.75,
+  "receita": 20,
+  "valor_inicial": 19074.02,
+  "valor_solucao": 19074.02,
+  "tempo_processamento": 0.02,
+  "hubs_instalados": [17],
+  "arcos_instalados": []
+},
+{
+  "nome_arquivo": "50L.txt",
+  "alpha": 0.75,
+  "receita": 20,
+  "valor_inicial": 15003.61,
+  "valor_solucao": 15003.61,
+  "tempo_processamento": 0.13,
+  "hubs_instalados": [34],
+  "arcos_instalados": []
+},
+{
+  "nome_arquivo": "50L.txt",
+  "alpha": 0.75,
+  "receita": 20,
+  "valor_inicial": 15003.61,
+  "valor_solucao": 15003.61,
+  "tempo_processamento": 0.11,
+  "hubs_instalados": [34],
+  "arcos_instalados": []
+},
+{
+  "nome_arquivo": "200L.txt",
+  "alpha": 0.75,
+  "receita": 50,
+  "valor_inicial": 103515.17,
+  "valor_solucao": 118304.70,
+  "tempo_processamento": 51.91,
+  "hubs_instalados": [42, 94, 129, 159],
+  "arcos_instalados": [[42, 159], [159, 42]]
+},
+{
+  "nome_arquivo": "200L.txt",
+  "alpha": 0.75,
+  "receita": 50,
+  "valor_inicial": 103515.17,
+  "valor_solucao": 118304.70,
+  "tempo_processamento": 21.96,
+  "hubs_instalados": [42, 94, 129, 159],
+  "arcos_instalados": [[42, 159], [159, 42]]
+},
+{
+  "nome_arquivo": "200L.txt",
+  "alpha": 0.75,
+  "receita": 50,
+  "valor_inicial": 103515.17,
+  "valor_solucao": 118304.70,
+  "tempo_processamento": 54.29,
+  "hubs_instalados": [42, 94, 129, 159],
+  "arcos_instalados": [[42, 159], [159, 42]]
+},
+{
+  "nome_arquivo": "200L.txt",
+  "alpha": 0.75,
+  "receita": 50,
+  "valor_inicial": 103515.17,
+  "valor_solucao": 118304.70,
+  "tempo_processamento": 47.53,
+  "hubs_instalados": [42, 94, 129, 159],
+  "arcos_instalados": [[42, 159], [159, 42]]
+},
